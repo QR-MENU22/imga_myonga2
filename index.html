@@ -228,12 +228,12 @@
 </header>
 
 <div class="nav-wrapper">
-    <div class="categories">
-        <button class="cat-btn active" onclick="filterMenu('all', this)">ALL</button>
-        <button class="cat-btn" onclick="filterMenu('main', this)">FOOD</button>
-        <button class="cat-btn" onclick="filterMenu('drink', this)">DRINKS</button>
-        <button class="cat-btn" onclick="filterMenu('main', this)">SIGNLE MENU</button>
-        <button class="cat-btn" onclick="filterMenu('drink', this)">MEAL MENU</button>
+    <div class="categories">       
+        <button class="cat-btn" onclick="filterMenu('main', this)">SET MENU</button>
+        <button class="cat-btn" onclick="filterMenu('side menu', this)">SIDE MENU</button>
+        <button class="cat-btn" onclick="filterMenu('meal menu', this)">MEAL MENU</button>
+        <button class="cat-btn" onclick="filterMenu('soft drinks', this)">SOFT DRINKS</button>
+      <button class="cat-btn" onclick="filterMenu('single menu', this)">SINGLE MENU</button>
     </div>
 </div>
 
@@ -256,7 +256,7 @@
 <script>
     const items = [
         // ХООЛНУУД (25)
-        {n: "Royal Bibimbap", p: "22,500₮", c: "main", img: "https://images.unsplash.com/photo-1541783245831-57d6fb0926d3?w=600", d: "Wagyu beef, seasonal mountain vegetables, gold-leaf garnish."},
+        {n: "waguri gomobsin bn", p: "22,500₮", c: "main", img: "https://images.unsplash.com/photo-1541783245831-57d6fb0926d3?w=600", d: "Wagyu beef, seasonal mountain vegetables, gold-leaf garnish."},
         {n: "Signature Bulgogi", p: "28,000₮", c: "main", img: "https://images.unsplash.com/photo-1585032226651-759b368d7246?w=600", d: "24-hour marinated prime rib eye over oak charcoal fire."},
         {n: "Aged Kimchi Jjigae", p: "18,000₮", c: "main", img: "https://images.unsplash.com/photo-1623595110708-76b2f0331002?w=600", d: "3-year aged kimchi, berkshire pork belly, silken tofu."},
         {n: "Golden Tteokbokki", p: "16,500₮", c: "main", img: "https://images.unsplash.com/photo-1498654896293-37aacf113fd9?w=600", d: "Hand-shaped rice cakes, spicy gochujang, artisanal fish cake."},
