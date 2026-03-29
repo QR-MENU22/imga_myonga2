@@ -222,16 +222,18 @@
 
 <header>
     <div class="logo-line"></div>
-    <h1>SEOUL</h1>
+    <h1>IMGA MYONGA</h1>
     <div class="logo-line"></div>
     <p>Excellence in Every Bite</p>
 </header>
 
 <div class="nav-wrapper">
     <div class="categories">
-        <button class="cat-btn active" onclick="filterMenu('all', this)">Collection</button>
-        <button class="cat-btn" onclick="filterMenu('main', this)">Cuisine</button>
-        <button class="cat-btn" onclick="filterMenu('drink', this)">Beverage</button>
+        <button class="cat-btn active" onclick="filterMenu('all', this)">ALL</button>
+        <button class="cat-btn" onclick="filterMenu('main', this)">FOOD</button>
+        <button class="cat-btn" onclick="filterMenu('drink', this)">DRINKS</button>
+        <button class="cat-btn" onclick="filterMenu('main', this)">SIGNLE MENU</button>
+        <button class="cat-btn" onclick="filterMenu('drink', this)">MEAL MENU</button>
     </div>
 </div>
 
@@ -239,7 +241,16 @@
     </div>
 
 <footer>
-    ESTD 2026 — PREMIUM KOREAN EXPERIENCE
+    IMGA MYONGA — PREMIUM KOREAN EXPERIENCE
+<address>
+                                 <h9 class="font-semibold">Хаяг:</h9>
+                                 <p><a          href="https://maps.app.goo.gl/gY1GZzsY5XVx2WoNA" class="text-slate-500 hover:text-slate-400" target="_blank">IMGA MYONGA</a></p>
+                    <br>
+                                  <h9 class="font-semibold">Утас:</h9>
+                                  <p class="text-slate-500">
+                        <a  <a  class="hover:text-slate-400">60087727</a>
+                    </p>
+                </address>
 </footer>
 
 <script>
@@ -271,14 +282,7 @@
         {n: "Bulgogi Fries", p: "12,500₮", c: "main", img: "https://images.unsplash.com/photo-1573010334382-02942823d429?w=600", d: "Crispy fries topped with bulgogi and melted cheese."},
         {n: "Spicy Ramen Soup", p: "14,500₮", c: "main", img: "https://images.unsplash.com/photo-1569718212165-3a8278d5f624?w=600", d: "Classic Korean ramyun, extreme spice, vegetable mix."},
         {n: "Bibim Guksu", p: "15,000₮", c: "main", img: "https://images.unsplash.com/photo-1585032226651-759b368d7246?w=600", d: "Chilled spicy noodles, cucumber, boiled egg."},
-
-        // УНДАА (5)
-        {n: "Vintage Soju", p: "12,000₮", c: "drink", img: "https://images.unsplash.com/photo-1582650625119-3a31f8fa2699?w=600", d: "Premium distilled spirit, smooth and crisp."},
-        {n: "Iced Omija Tea", p: "8,500", c: "drink", img: "https://images.unsplash.com/photo-1556679343-c7306c1976bc?w=600", d: "Five-flavor berry tea, served over crystal ice."},
-        {n: "Korean Pear Nectar", p: "7,000₮", c: "drink", img: "https://images.unsplash.com/photo-1561336313-0bd5e0b27ec8?w=600", d: "Freshly pressed Asian pear, naturally sweet."},
-        {n: "Matcha Latte", p: "9,000₮", c: "drink", img: "https://images.unsplash.com/photo-1515823064-d6e0c04616a7?w=600", d: "Ceremonial grade matcha, organic milk, honey."},
-        {n: "Sparkling Yuzu", p: "8,000₮", c: "drink", img: "https://images.unsplash.com/photo-1513558161293-cdaf765ed2fd?w=600", d: "Citrus infusion, soda water, fresh mint leaves."}
-    ];
+];
 
     const menuDisplay = document.getElementById('main-menu');
 
